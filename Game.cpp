@@ -9,6 +9,7 @@
 
 void Game::InitWindow()
 {
+    /* Create SFML window using option from window.ini file*/
 	this->window = new sf::RenderWindow(sf::VideoMode(800, 600), "RPG");
 }
 
